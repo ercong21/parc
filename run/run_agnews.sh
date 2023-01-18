@@ -1,0 +1,20 @@
+#CUDA_VISIBLE_DEVICES=7 python -u cli.py --pattern_ids 2 --sentence_transformer_name 'sentence-transformers/LaBSE' --task_name 'ag_news' --data_dir 'data/ag_news'
+#CUDA_VISIBLE_DEVICES=7 python -u cli.py --pattern_ids 2 --priming --sentence_transformer_name 'sentence-transformers/LaBSE' --task_name 'ag_news' --data_dir 'data/ag_news'
+#CUDA_VISIBLE_DEVICES=7 python -u cli.py --pattern_ids 2 --priming --sentence_transformer_name 'sentence-transformers/LaBSE' --num_priming 3 --task_name 'ag_news' --data_dir 'data/ag_news'
+#CUDA_VISIBLE_DEVICES=7 python -u cli.py --pattern_ids 2 --priming --sentence_transformer_name 'sentence-transformers/LaBSE' --num_priming 5 --task_name 'ag_news' --data_dir 'data/ag_news'
+#CUDA_VISIBLE_DEVICES=7 python -u cli.py --pattern_ids 2 --priming --sentence_transformer_name 'sentence-transformers/LaBSE' --self_prediction --task_name 'ag_news' --data_dir 'data/ag_news'
+#CUDA_VISIBLE_DEVICES=7 python -u cli.py --pattern_ids 2 --priming --sentence_transformer_name 'sentence-transformers/LaBSE' --num_priming 3 --self_prediction --task_name 'ag_news' --data_dir 'data/ag_news'
+#CUDA_VISIBLE_DEVICES=7 python -u cli.py --pattern_ids 2 --priming --sentence_transformer_name 'sentence-transformers/LaBSE' --num_priming 5 --self_prediction --task_name 'ag_news' --data_dir 'data/ag_news'
+
+#CUDA_VISIBLE_DEVICES=1 python -u cli.py --pattern_ids 0 --task_name 'ag_news' --data_dir 'data/ag_news' --priming  --conc
+#CUDA_VISIBLE_DEVICES=1 python -u cli.py --pattern_ids 0 --task_name 'ag_news' --data_dir 'data/ag_news' --priming --num_priming 3 --conc
+#CUDA_VISIBLE_DEVICES=1 python -u cli.py --pattern_ids 0 --task_name 'ag_news' --data_dir 'data/ag_news' --priming --num_priming 5 --conc
+#CUDA_VISIBLE_DEVICES=1 python -u cli.py --pattern_ids 0 --task_name 'ag_news' --data_dir 'data/ag_news' --priming --num_priming 10 --conc
+#CUDA_VISIBLE_DEVICES=1 python -u cli.py --pattern_ids 0 --task_name 'ag_news' --data_dir 'data/ag_news' --priming --num_priming 20 --conc
+CUDA_VISIBLE_DEVICES=1 python -u cli.py --pattern_ids 0 --task_name 'ag_news' --data_dir 'data/ag_news' --priming --num_priming 30 --conc
+#CUDA_VISIBLE_DEVICES=1 python -u cli.py --pattern_ids 0 --task_name 'ag_news' --data_dir 'data/ag_news' --priming --self_prediction --conc
+#CUDA_VISIBLE_DEVICES=1 python -u cli.py --pattern_ids 0 --task_name 'ag_news' --data_dir 'data/ag_news' --priming --num_priming 3 --self_prediction --conc
+#CUDA_VISIBLE_DEVICES=1 python -u cli.py --pattern_ids 0 --task_name 'ag_news' --data_dir 'data/ag_news' --priming --num_priming 5 --self_prediction --conc
+#CUDA_VISIBLE_DEVICES=1 python -u cli.py --pattern_ids 0 --task_name 'ag_news' --data_dir 'data/ag_news' --priming --num_priming 10 --self_prediction --conc
+#CUDA_VISIBLE_DEVICES=1 python -u cli.py --pattern_ids 0 --task_name 'ag_news' --data_dir 'data/ag_news' --priming --num_priming 20 --self_prediction --conc
+#CUDA_VISIBLE_DEVICES=1 python -u cli.py --pattern_ids 0 --task_name 'ag_news' --data_dir 'data/ag_news' --priming --num_priming 30 --self_prediction --conc
