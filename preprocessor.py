@@ -8,7 +8,6 @@ class Preprocessor(ABC):
     A preprocessor that transforms an :class:"InputExample" into a :class:"InputFeatures" object so that it can be
     processed by the model being used.
     """
-    # TODO: prepare model wrappers in wrapper.py file
     def __init__(self, wrapper, task_name, pattern_id: int = 0, verbalizer_file: str = None):
         """
         Create a new preprocessor.
