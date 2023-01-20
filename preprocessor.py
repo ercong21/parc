@@ -1,11 +1,7 @@
-# -*- coding: utf-8 -*-
-# Author: Niel
-# Date: 2022/6/14  14:29
-
 from abc import ABC, abstractmethod
 
 from utils import InputExample, InputFeatures
-from pvp import PVPS  # TODO: prepare pvp.py
+from pvp import PVPS 
 
 class Preprocessor(ABC):
     """
