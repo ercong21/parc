@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Niel
-# Date: 2022/9/15  16:19
 
 import numpy as np
 import pandas as pd
