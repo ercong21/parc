@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Niel
-# Date: 2022/6/17  16:33
-
-#TODO: to be continued, retrieve similar sentences from english amazon review (import dataset, transformers) for product reviews.
 import os
 import pickle
 import random
