@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Niel
-# Date: 2022/6/14  8:52
-
 from typing import Dict, Optional, Union, List
 import json
 import csv
@@ -11,9 +7,8 @@ import numpy as np
 import torch
 from transformers import PreTrainedTokenizer
 from torch.utils.data import Dataset
-from googletrans import Translator
 
-# TODO: Attributes logits, idx not included in the "InputExample" and "InputFeatures" class.
+
 class InputExample:
     """
     A raw input example consisting of one or two segments of text and a label.
