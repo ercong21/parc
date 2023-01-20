@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Niel
-# Date: 2022/6/12  23:56
-
 """
 This file contains basic logging logic.
 """
