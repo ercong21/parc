@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Niel
-# Date: 2022/6/15  11:47
-
 """
 This files contains a series of Wrapper classes for wrapping a transformer language model and
 provides convenient methods for evaluation.
