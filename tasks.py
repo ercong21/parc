@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Niel
-# Date: 2022/6/17  17:00
-
 import os
 
 from abc import ABC, abstractmethod
@@ -131,7 +127,6 @@ class AgNewsProcessor(DataProcessor):
         return ['0', '1', '2', '3']
 
 
-# 注意读label的时候要strip
 class XnliProcessor(DataProcessor):
     """Processor for xnli task."""
 
