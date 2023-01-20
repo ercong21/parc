@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Niel
-# Date: 2022/6/24  18:12
 """
 Command line interface
 This script can be used to evaluate a pretrained multilingual model on one supported task or dataset.
