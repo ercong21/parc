@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Niel
-# Date: 2022/6/15  15:14
 """
 This file contains the pattern (prompt template) verbalizer pairs for different tasks.
 """
