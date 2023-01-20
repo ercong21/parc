@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Niel
-# Date: 2022/6/29  11:57
 import os.path
 from abc import ABC
 import json
@@ -48,7 +45,6 @@ class TrainConfig(ModelingConfig):
                  gradient_accumulation_steps: int = 1, weight_decay: float = 0.0, learning_rate: float = 1e-5,
                  adam_epsilon: float = 1e-8, warmup_steps: int = 0, max_grad_norm: float = 1.0,
                  logging_steps: int = 50):
-        # TODO: No bool arguments lm_training and use_logits and temperature
         """
         Create a new training config.
 
@@ -199,7 +195,6 @@ def train(model_config: WrapperConfig, train_data: List[InputExample], eval_data
 
 def train_single_model(model: TransformerModelWrapper, train_data: List[InputExample], config: TrainConfig,
                        eval_config: EvalConfig):
-    # TODO: no unlabeled_data and bool argument return_train_set_results
     """
     Used to train a single model.
 
